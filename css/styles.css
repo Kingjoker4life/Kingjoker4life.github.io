@@ -1,0 +1,142 @@
+body {
+    font-family: "Montserrat";
+    text-align: left;
+  }
+  
+  /* Sections */
+  
+  .colored-section {
+    color: white;
+    background-color: #0b011e;
+  }
+  
+  .white-section {
+    background-color: white;
+  }
+  
+  /* Containers */
+  
+  .container-fluid {
+    padding: 7% 15%;
+  }
+  
+  /* Navigation Bar */
+  
+  .nav-item {
+    padding: 7.5px 10px;
+  }
+  
+  .navbar-nav {
+    margin: 0 7%;
+  }
+  
+  .navbar-black {
+    background-color: #0b011e;
+  }
+  
+   .nav-link {
+    font-family: "Montserrat";
+    font-size: 1rem;
+    font-weight: 300;
+  } 
+  
+  /* Headings */
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    line-height: 1.5;
+  }
+  
+  .big-heading {
+    font-weight: 300;
+    font-size: 3.5rem;
+  }
+  
+  .section-heading {
+    font-size: 3rem;
+  }
+  
+  .color-text {
+    color: #ac1f1f;
+  }
+  
+  .colored-section .color-text {
+    color: #e8494c;
+  }
+  
+  .profile-image {
+    width: 30%;
+    margin: 0 0 7%;
+  }
+  
+  .portrait-image {
+    width: 60%;
+    margin-bottom: 5%;
+  }
+  
+  #home {
+    text-align: center;
+    padding-top: 7%;
+  }
+  
+  .social-icon {
+    margin: 20px 20px 20px 0;
+  }
+  
+  a {
+    color: #212121;
+  }
+  
+  a:hover {
+    color: #323232;
+  }
+  
+  a:active {
+    color: #212121;
+  }
+  
+  .colored-section a {
+    color: #fff;
+  }
+  
+  #footer .container-fluid {
+    text-align: center;
+    padding: 2%;
+  }
+  
+  .typewrite {
+    text-decoration: none;
+  }
+  
+  @media (max-width: 1028px) {
+    #home {
+      padding-top: 14%;
+    }
+  
+    .big-heading {
+      font-weight: 300;
+      font-size: 2.5rem;
+    }
+  
+    .section-heading {
+      font-size: 2rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    /* #home {
+      padding-top: 14%;
+    } */
+  
+    .big-heading {
+      /* font-weight: 300; */
+      font-size: 1.75rem;
+    }
+  
+    .section-heading {
+      font-size: 1.2rem;
+    }
+  }
